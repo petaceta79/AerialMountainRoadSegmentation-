@@ -37,20 +37,12 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 | Original | Resultado Final |  
 |----------|-----------------|  
 | ![Original](ejemplos/foto1.jpg) | ![Resultado](ejemplos/foto1_edit.jpg) |
-|----------|-----------------|  
-| ![Original](ejemplos/foto2.jpg) | ![Resultado](ejemplos/foto2_edit.jpg) | 
-|----------|-----------------|  
+| ![Original](ejemplos/foto2.jpg) | ![Resultado](ejemplos/foto2_edit.jpg) |  
 | ![Original](ejemplos/foto3.jpg) | ![Resultado](ejemplos/foto3_edit.jpg) |
-|----------|-----------------|  
 | ![Original](ejemplos/foto4.jpg) | ![Resultado](ejemplos/foto4_edit.jpg) |
-|----------|-----------------|  
 | ![Original](ejemplos/foto5.jpg) | ![Resultado](ejemplos/foto5_edit.jpg) | 
-|----------|-----------------|  
 | ![Original](ejemplos/foto6.jpg) | ![Resultado](ejemplos/foto6_edit.jpg) | 
-|----------|-----------------|  
-| ![Original](ejemplos/foto7.jpg) | ![Resultado](ejemplos/foto7_edit.jpg) |
-|----------|-----------------|  
+| ![Original](ejemplos/foto7.jpg) | ![Resultado](ejemplos/foto7_edit.jpg) | 
 | ![Original](ejemplos/foto8.jpg) | ![Resultado](ejemplos/foto8_edit.jpg) | 
-|----------|-----------------|  
 | ![Original](ejemplos/foto9.jpg) | ![Resultado](ejemplos/foto9_edit.jpg) |
 
