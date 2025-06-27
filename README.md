@@ -45,3 +45,16 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 | ![Original](ejemplos/foto8.jpg) | ![Resultado](ejemplos/foto8_edit.jpg) | 
 | ![Original](ejemplos/foto9.jpg) | ![Resultado](ejemplos/foto9_edit.jpg) |
 
+## 🔍 Pipeline del Algoritmo
+
+1. **Extracción del Canal Azul**
+   - Aisla el componente azul (B) de la imagen BGR
+   - `b = img[:, :, 0]` (OpenCV usa orden BGR)
+
+2. **Umbralizado Adaptativo**
+   - Calcula el umbral como: `media_azul * (1 + factor_boost)`
+   - Elimina píxeles con valor azul inferior al umbral
+
+3. **Filtrado de Regiones Pequeñas**
+   - Elimina manchas menores a `(alto*ancho)//divisor`
+   - Usa BFS (Breadth-First Search) para detectar regiones conectadas
