@@ -12,7 +12,7 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 ## 🔍 Proceso  
 
 ### 📌 Primera prueba: Detección de bordes  
-- Implementé una modificación del algoritmo **Sobel** ([archivo](ruta/sobel_modificado.py)) optimizado con:  
+- Implementé una modificación del algoritmo **Sobel** ([archivo](sobelObtimizado.py)) optimizado con:  
   - **Vectorización** para acelerar cálculos.  
   - **Integral de imagen** para reducir operaciones redundantes.  
 - **Problema detectado**:  
