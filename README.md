@@ -71,7 +71,6 @@ img = cv2.imread('imagen.jpg')
 resultado = filtro_color_azul_elim(img, div_umbral=16, restriccion_threshold=0.7)
 cv2.imwrite('resultado.jpg', resultado)
 ```
-- Sino la funcion filtro_color_azul_elim en el archivo **[filtroColorVerde.py](filtroColorVerde.py)**
 
 ## 🔍 ¿Quieres saber más?
 - El archivo principal se encuentra en: **[filtroColorVerde.py](filtroColorVerde.py)**
