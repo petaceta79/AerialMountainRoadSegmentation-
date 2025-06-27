@@ -21,8 +21,10 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 
 ### 📊 Análisis: Canal RGB  
 - Experimenté con la separación de canales de color:  
-  ![RGB Channels](imagenes/rgb_channels.png)  
-  - **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
+  | Original | b | r | g |
+  |----------|-----------------|  
+  | ![Original](fotosColores/foto1.jpg) | ![b](fotosColores/foto1b.jpg) | ![b](fotosColores/foto1r.jpg) | ![b](fotosColores/foto1g.jpg) |
+- **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
 
 ### ⚙️ Solución implementada  
 1. **Umbralizado del canal azul**:  
