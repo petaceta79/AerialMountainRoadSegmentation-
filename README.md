@@ -62,3 +62,17 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 ## ⚙️ Parámetros
 - **div_umbral**: Tamaño mínimo de regiones (↑ valor = ↓ tamaño mínimo)
 - **restriccion_threshol**: Sensibilidad al azul (↑ valor = ↑ exigencia)
+
+## 🛠️ Uso
+```python
+from filtroColorVerde import filtro_color_azul_elim
+
+img = cv2.imread('imagen.jpg')
+resultado = filtro_color_azul_elim(img, div_umbral=16, restriccion_threshold=0.7)
+cv2.imwrite('resultado.jpg', resultado)
+```
+- Sino la funcion filtro_color_azul_elim en el archivo **[filtroColorVerde.py](filtroColorVerde.py)**
+
+## 🔍 ¿Quieres saber más?
+- El archivo principal se encuentra en: **[filtroColorVerde.py](filtroColorVerde.py)**
+- Para profundizar en el algoritmo, revisa los comentarios en el código fuente
