@@ -58,3 +58,7 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 3. **Filtrado de Regiones Pequeñas**
    - Elimina manchas menores a `(alto*ancho)//divisor`
    - Usa BFS (Breadth-First Search) para detectar regiones conectadas
+
+## ⚙️ Parámetros
+- **div_umbral**: Tamaño mínimo de regiones (↑ valor = ↓ tamaño mínimo)
+- **restriccion_threshol**: Sensibilidad al azul (↑ valor = ↑ exigencia)
