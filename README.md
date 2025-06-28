@@ -25,6 +25,10 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 | 🖼️ Original | 🔴 Rojo (R) | 🟢 Verde (G) | 🔵 Azul (B) |
 |------------|------------|-------------|------------|
 | <img src="fotosColores/foto1.jpg" width="200"> | <img src="fotosColores/foto1r.jpg" width="200"> | <img src="fotosColores/foto1g.jpg" width="200"> | <img src="fotosColores/foto1b.jpg" width="200"> |
+| <img src="fotosColores/foto2.jpg" width="200"> | <img src="fotosColores/foto2r.jpg" width="200"> | <img src="fotosColores/foto2g.jpg" width="200"> | <img src="fotosColores/foto2b.jpg" width="200"> |
+| <img src="fotosColores/foto3.jpg" width="200"> | <img src="fotosColores/foto3r.jpg" width="200"> | <img src="fotosColores/foto3g.jpg" width="200"> | <img src="fotosColores/foto3b.jpg" width="200"> |
+| <img src="fotosColores/foto4.jpg" width="200"> | <img src="fotosColores/foto4r.jpg" width="200"> | <img src="fotosColores/foto4g.jpg" width="200"> | <img src="fotosColores/foto4b.jpg" width="200"> |
+| <img src="fotosColores/foto5.jpg" width="200"> | <img src="fotosColores/foto5r.jpg" width="200"> | <img src="fotosColores/foto5g.jpg" width="200"> | <img src="fotosColores/foto5b.jpg" width="200"> |
 
 - **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
 
