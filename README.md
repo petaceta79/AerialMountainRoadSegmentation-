@@ -21,13 +21,11 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 
 ### 📊 Análisis: Canal RGB  
 - Experimenté con la separación de canales de color en la carpeta ([Carpeta foto de colores](fotosColores))
+
 | 🖼️ Original | 🔴 Rojo (R) | 🟢 Verde (G) | 🔵 Azul (B) |
 |------------|------------|-------------|------------|
-| ![foto1](fotosColores/foto1.jpg) | ![foto1r](fotosColores/foto1r.jpg) | ![foto1g](fotosColores/foto1g.jpg) | ![foto1b](fotosColores/foto1b.jpg) |
-| ![foto2](fotosColores/foto2.jpg) | ![foto2r](fotosColores/foto2r.jpg) | ![foto2g](fotosColores/foto2g.jpg) | ![foto2b](fotosColores/foto2b.jpg) |
-| ![foto3](fotosColores/foto3.jpg) | ![foto3r](fotosColores/foto3r.jpg) | ![foto3g](fotosColores/foto3g.jpg) | ![foto3b](fotosColores/foto3b.jpg) |
-| ![foto4](fotosColores/foto4.jpg) | ![foto4r](fotosColores/foto4r.jpg) | ![foto4g](fotosColores/foto4g.jpg) | ![foto4b](fotosColores/foto4b.jpg) |
-| ![foto5](fotosColores/foto5.jpg) | ![foto5r](fotosColores/foto5r.jpg) | ![foto5g](fotosColores/foto5g.jpg) | ![foto5b](fotosColores/foto5b.jpg) |
+| <img src="fotosColores/foto1.jpg" width="100"> | <img src="fotosColores/foto1r.jpg" width="100"> | <img src="fotosColores/foto1g.jpg" width="100"> | <img src="fotosColores/foto1b.jpg" width="100"> |
+
 - **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
 
 ### ⚙️ Solución implementada  
