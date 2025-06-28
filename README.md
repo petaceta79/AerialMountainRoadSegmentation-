@@ -24,7 +24,7 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 
 | 🖼️ Original | 🔴 Rojo (R) | 🟢 Verde (G) | 🔵 Azul (B) |
 |------------|------------|-------------|------------|
-| <img src="fotosColores/foto1.jpg" width="100"> | <img src="fotosColores/foto1r.jpg" width="100"> | <img src="fotosColores/foto1g.jpg" width="100"> | <img src="fotosColores/foto1b.jpg" width="100"> |
+| <img src="fotosColores/foto1.jpg" width="200"> | <img src="fotosColores/foto1r.jpg" width="200"> | <img src="fotosColores/foto1g.jpg" width="200"> | <img src="fotosColores/foto1b.jpg" width="200"> |
 
 - **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
 
