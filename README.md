@@ -28,13 +28,13 @@ Extraer automáticamente el camino de una imagen aérea de carreteras en entorno
 | <img src="fotosColores/foto4.jpg" width="200"> | <img src="fotosColores/foto4r.jpg" width="200"> | <img src="fotosColores/foto4g.jpg" width="200"> | <img src="fotosColores/foto4b.jpg" width="200"> |
 | <img src="fotosColores/foto5.jpg" width="200"> | <img src="fotosColores/foto5r.jpg" width="200"> | <img src="fotosColores/foto5g.jpg" width="200"> | <img src="fotosColores/foto5b.jpg" width="200"> |
 
-- **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul).  
+- **Hallazgo clave**: El canal **azul** destaca mejor las carreteras (las copas de los árboles casi no contienen azul). Se aprecia en las fotografías cómo el verde y el rojo tienen una misma intensidad, pero en el azul se observa cómo destaca la carretera frente a la vegetación notablemente. 
 
 ### ⚙️ Solución implementada  
 1. **Umbralizado del canal azul**:  
    - Filtro para conservar solo píxeles con valores altos en azul.  
 2. **Postprocesamiento**:  
-   - Algoritmo recursivo para eliminar **puntos pequeños aislados** (ruido residual). Se aprecia en las fotografías cómo el verde y el rojo tienen una misma intensidad, pero en el azul se observa cómo destaca la carretera frente a la vegetación notablemente. 
+   - Algoritmo recursivo para eliminar **puntos pequeños aislados** (ruido residual). 
 
 ---
 
