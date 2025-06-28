@@ -7,8 +7,6 @@ Algoritmo de visión por computadora que diferencia carreteras de zonas montaño
 ## 🎯 Objetivo  
 Extraer automáticamente el camino de una imagen aérea de carreteras en entornos montañosos.  
 
----
-
 ## 🔍 Proceso  
 
 ### 📌 Primera prueba: Detección de bordes  
